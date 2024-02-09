@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.menutext a{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+   
+}
+.logo{
+    transform: translateX(550px);
+}
+.hero{
+  
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5),transparent) ,url(./Images/audi\ bg.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 420px 0px 40px
+}
+.hero h1{
+    
+    font-size: 42px;
+    
+}
+.hero p{
+    margin: 15px 0px;
+    font-size: 20px;
+    
+    padding-right: 600px;
+}
+.button{
+    padding: left 20px;
+    display: flex;
+}
+#b1{
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    border: none;
+    padding: 16px 34px;
+}
+#b1:hover{
+    background-color: lightgray;
+}
+#b2{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 15px 34px;
+}
+#b2:hover{
+    color: lightgrey;
+    border-color: lightgrey;
+}
+.models{
+    padding: 20px 20px; 
+}
+.modeltitles{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.allmodels{
+    display: flex;
+    justify-content: center;
+}
+.model{
+    text-align: center;
+    transition: 0.5s;
+}
+.model img{
+    height: 94px;
+    width: 219px;
+}
+.model:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.virtualshowroom{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 20px 0px;
+    
+}
+.virtualshowroom img{
+   height: 463px;
+   width: 463px;
+}
+.virtualshowroom button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 18px 75px;
+    margin-top: 20px;
+
+}
+.info{
+    width: 45%;
+    margin-left: 50px;
+    
+}
+.electric{
+    margin: 0px 0px;
+    background-image: url(./Images/electric.jpg);
+    background-position: center;
+    height: 200vh;
+}
+.electricinfo{
+    font-family: sans-serif;
+    background-color: white;
+    width: 500px;
+    padding: 50px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.electricinfo p{
+    margin: 20px 0px;
+}
+
+#eb1{
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 15px 40px ;
+
+}
+#eb2{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 60px ;
+
+
+}
+
